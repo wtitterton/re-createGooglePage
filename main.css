@@ -10,7 +10,7 @@ nav
 {
 	float: right;
 	margin-right: 20px;
-	margin-top:-10px;
+
 	
 }
 
@@ -24,13 +24,37 @@ nav ul li
 {
 	display: inline-block;
 	padding:5px;
-	font-size: 17px;
+	font-size: 16px;
 }
 
+nav ul li:nth-child(9)
+{
+	height: 40px;
+	width:40px;
+	box-sizing:border-box;
+	background: #4d90fe;
+	border-radius: 50%;
+	padding: 10px;
+
+}
+
+nav ul li:nth-child(9) a
+{
+	color: #fff;
+	display: inline;
+	vertical-align: middle;
+
+}
+
+nav ul li:nth-child(9) a:hover
+{
+	text-decoration: none;
+}
 nav ul li a
 {
 	text-decoration: none;
 	color:#3f3f3f;
+
 }
 
 nav ul li a:hover
@@ -40,16 +64,16 @@ nav ul li a:hover
 
 .appIcon img
 {
-	height:30px;
-	width:30px;
+	height:22px;
+	width:22px;
 	vertical-align: middle;
 }
 
 
 .notification img
 {
-	width:30px;
-	height: 30px;
+	width:22px;
+	height: 22px;
 	vertical-align: middle;
 }
 
@@ -75,7 +99,7 @@ img
 
 input[type="text"]
 {
-	height:30px;
+	height:32px;
 	width:500px;
 	margin-top: 10px;
 	background-image: url('microphone.jpg');
